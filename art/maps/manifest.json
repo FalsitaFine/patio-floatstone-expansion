@@ -1,0 +1,139 @@
+{
+ "bm_town": {
+  "cols": 13,
+  "rows": 8,
+  "cellPx": 118,
+  "w": 1534,
+  "h": 944,
+  "kind": "battle"
+ },
+ "bm_mine": {
+  "cols": 13,
+  "rows": 8,
+  "cellPx": 120,
+  "w": 1560,
+  "h": 960,
+  "kind": "battle"
+ },
+ "bm_vein": {
+  "cols": 14,
+  "rows": 8,
+  "cellPx": 112,
+  "w": 1568,
+  "h": 896,
+  "kind": "battle"
+ },
+ "bm_terrace": {
+  "cols": 13,
+  "rows": 8,
+  "cellPx": 120,
+  "w": 1560,
+  "h": 960,
+  "kind": "battle"
+ },
+ "bm_bridge": {
+  "cols": 14,
+  "rows": 7,
+  "cellPx": 112,
+  "w": 1568,
+  "h": 784,
+  "kind": "battle"
+ },
+ "bm_sanctum": {
+  "cols": 13,
+  "rows": 8,
+  "cellPx": 120,
+  "w": 1560,
+  "h": 960,
+  "kind": "battle"
+ },
+ "mine_town": {
+  "cols": 24,
+  "rows": 16,
+  "cellPx": 64,
+  "w": 1536,
+  "h": 1024,
+  "kind": "field"
+ },
+ "mine_f1": {
+  "cols": 28,
+  "rows": 18,
+  "cellPx": 54,
+  "w": 1512,
+  "h": 972,
+  "kind": "field"
+ },
+ "mine_f2": {
+  "cols": 27,
+  "rows": 18,
+  "cellPx": 56,
+  "w": 1512,
+  "h": 1008,
+  "kind": "field"
+ },
+ "sky_outer": {
+  "cols": 30,
+  "rows": 20,
+  "cellPx": 51,
+  "w": 1530,
+  "h": 1020,
+  "kind": "field"
+ },
+ "sky_inner": {
+  "cols": 20,
+  "rows": 18,
+  "cellPx": 60,
+  "w": 1200,
+  "h": 1080,
+  "kind": "field"
+ },
+ "_doc": "Painted top-down maps. maps/<mapId>.webp is cropped exactly to the grid: tile (x,y) covers [x*cellPx, y*cellPx, cellPx, cellPx]; mapId = id in engine/content/story/maps.json (battle) or fields.json (field). NPCs, chests, save points and gates are not painted in; draw them as sprites.",
+ "bm_vein_boss": {
+  "cols": 20,
+  "rows": 13,
+  "cellPx": 76,
+  "w": 1520,
+  "h": 988,
+  "kind": "battle"
+ },
+ "bm_bridge_boss": {
+  "cols": 21,
+  "rows": 14,
+  "cellPx": 73,
+  "w": 1533,
+  "h": 1022,
+  "kind": "battle"
+ },
+ "bm_sanctum_boss": {
+  "cols": 20,
+  "rows": 13,
+  "cellPx": 76,
+  "w": 1520,
+  "h": 988,
+  "kind": "battle"
+ },
+ "oven_lane": {
+  "cols": 16,
+  "rows": 12,
+  "cellPx": 64,
+  "w": 1024,
+  "h": 768,
+  "kind": "field"
+ },
+ "bell_gallery": {
+  "cols": 16,
+  "rows": 12,
+  "cellPx": 64,
+  "w": 1024,
+  "h": 768,
+  "kind": "field"
+ },
+ "pump_room": {
+  "cols": 16,
+  "rows": 12,
+  "cellPx": 64,
+  "w": 1024,
+  "h": 768,
+  "kind": "field"
+ }
+}

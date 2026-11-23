@@ -1,0 +1,659 @@
+{
+ "por_ali": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 306,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.75,
+  "idleHeightTiles": 1.75,
+  "kind": "party"
+ },
+ "por_ying": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 307,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.7,
+  "idleHeightTiles": 1.7,
+  "kind": "party"
+ },
+ "hero_m1": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 305,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.85,
+  "idleHeightTiles": 1.85,
+  "kind": "party"
+ },
+ "hero_m2": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 334,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.88,
+  "idleHeightTiles": 1.85,
+  "kind": "party"
+ },
+ "hero_f1": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 376,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.81,
+  "idleHeightTiles": 1.8,
+  "kind": "party"
+ },
+ "hero_f2": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 330,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.85,
+  "idleHeightTiles": 1.85,
+  "kind": "party"
+ },
+ "por_sihang": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 382,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 2.0,
+  "idleHeightTiles": 2.0,
+  "kind": "boss"
+ },
+ "mon_scale_merc": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 352,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.89,
+  "idleHeightTiles": 1.85,
+  "kind": "enemy"
+ },
+ "scale_camp_guard": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 192,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.9,
+  "idleHeightTiles": 1.9,
+  "kind": "npc"
+ },
+ "_doc": "Chibi sprites. File = sprites/<id>.webp (idle) and <id>_attack/_hurt/_down.webp when poses has them. id = the game's art id when one exists (por_*, hero_*, mon_*, boss_*), otherwise the content id (npc/monster id); _aliases maps content ids to sprite ids. All poses of one id share one canvas (w x h); draw the canvas suggestedHeightTiles tall with its bottom-centre on the tile's bottom-centre; sprites face left, flip for the party. Battle objects with states (stateGroup) share one canvas and one suggestedHeightTiles: swap the file, keep the box; bodyHeightTiles is the height of the object itself without steam / sound arcs. kind 'decal' = ground decal seen from above: stretch it over the wTiles x hTiles cell rectangle whose top-left cell is the placement cell, and draw it under the units.",
+ "_aliases": {
+  "ali": "por_ali",
+  "ying": "por_ying",
+  "si_heng": "por_sihang",
+  "boss_sihang": "por_sihang",
+  "ge_lao": "por_gelao",
+  "mai_shen": "por_maishen",
+  "he_weng": "por_heweng",
+  "coal_rat": "mon_coal_rat",
+  "cave_bat": "mon_cave_bat",
+  "rock_beetle": "mon_rock_beetle",
+  "lamp_moth": "mon_lamp_moth",
+  "crystal_guardian": "mon_crystal_guardian",
+  "scale_merc": "mon_scale_merc",
+  "scale_windtrooper": "mon_scale_windtrooper",
+  "cloud_sheep": "mon_cloud_sheep",
+  "kite_ray": "mon_kite_ray",
+  "bell_sentinel": "mon_bell_sentinel",
+  "skyvine": "mon_skyvine",
+  "chest": "obj_chest",
+  "chest_open": "obj_chest_open",
+  "save": "obj_save",
+  "gate": "obj_gate",
+  "sparkle": "obj_sparkle"
+ },
+ "mon_cave_bat": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 285,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.43,
+  "idleHeightTiles": 1.35,
+  "kind": "enemy"
+ },
+ "mon_kite_ray": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 278,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.56,
+  "idleHeightTiles": 1.45,
+  "kind": "enemy"
+ },
+ "mon_bell_sentinel": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 359,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.85,
+  "idleHeightTiles": 1.85,
+  "kind": "enemy"
+ },
+ "mon_lamp_moth": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 276,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.59,
+  "idleHeightTiles": 1.45,
+  "kind": "enemy"
+ },
+ "mon_cloud_sheep": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 294,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.68,
+  "idleHeightTiles": 1.3,
+  "kind": "enemy"
+ },
+ "mon_skyvine": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 281,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.6,
+  "idleHeightTiles": 1.6,
+  "kind": "enemy"
+ },
+ "mon_crystal_guardian": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 352,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 2.15,
+  "idleHeightTiles": 1.95,
+  "kind": "enemy"
+ },
+ "mon_scale_windtrooper": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 328,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.91,
+  "idleHeightTiles": 1.8,
+  "kind": "enemy"
+ },
+ "mon_coal_rat": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 290,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.13,
+  "idleHeightTiles": 1.1,
+  "kind": "enemy"
+ },
+ "boss_leadweight": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 314,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 2.4,
+  "idleHeightTiles": 2.3,
+  "kind": "boss"
+ },
+ "boss_dawnbell": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 352,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 2.8,
+  "idleHeightTiles": 2.8,
+  "kind": "boss"
+ },
+ "scale_weight_a": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 380,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.35,
+  "idleHeightTiles": 1.35,
+  "kind": "enemy"
+ },
+ "scale_weight_b": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 299,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.35,
+  "idleHeightTiles": 1.35,
+  "kind": "enemy"
+ },
+ "por_gelao": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 210,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.85,
+  "idleHeightTiles": 1.85,
+  "kind": "npc"
+ },
+ "por_maishen": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 218,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.8,
+  "idleHeightTiles": 1.8,
+  "kind": "npc"
+ },
+ "por_heweng": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 198,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.7,
+  "idleHeightTiles": 1.7,
+  "kind": "npc"
+ },
+ "lu_san": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 182,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.95,
+  "idleHeightTiles": 1.95,
+  "kind": "npc"
+ },
+ "xiao_dou": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 280,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.4,
+  "idleHeightTiles": 1.4,
+  "kind": "npc"
+ },
+ "ji_mo": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 176,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.9,
+  "idleHeightTiles": 1.9,
+  "kind": "npc"
+ },
+ "town_guard": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 186,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.9,
+  "idleHeightTiles": 1.9,
+  "kind": "npc"
+ },
+ "scale_agent": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 196,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.8,
+  "idleHeightTiles": 1.8,
+  "kind": "npc"
+ },
+ "obj_sparkle": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 349,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 0.7,
+  "idleHeightTiles": 0.7,
+  "kind": "object"
+ },
+ "obj_chest": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 290,
+  "h": 254,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 0.8,
+  "kind": "object"
+ },
+ "obj_chest_open": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 290,
+  "h": 317,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.0,
+  "kind": "object"
+ },
+ "obj_save": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 290,
+  "h": 380,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.5,
+  "kind": "object"
+ },
+ "obj_gate": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 362,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.89,
+  "kind": "object"
+ },
+ "mon_rock_beetle": {
+  "poses": [
+   "idle",
+   "attack",
+   "hurt",
+   "down"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 285,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.24,
+  "idleHeightTiles": 1.15,
+  "kind": "enemy"
+ },
+ "obj_valve_open": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 304,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.67,
+  "kind": "object",
+  "bodyHeightTiles": 1.3,
+  "stateGroup": [
+   "obj_valve_open",
+   "obj_valve_closed"
+  ]
+ },
+ "obj_valve_closed": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 304,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.67,
+  "kind": "object",
+  "bodyHeightTiles": 1.3,
+  "stateGroup": [
+   "obj_valve_open",
+   "obj_valve_closed"
+  ]
+ },
+ "obj_pan_level": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 312,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.1,
+  "kind": "object",
+  "bodyHeightTiles": 1.1,
+  "stateGroup": [
+   "obj_pan_level",
+   "obj_pan_tipped"
+  ]
+ },
+ "obj_pan_tipped": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 312,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.1,
+  "kind": "object",
+  "bodyHeightTiles": 1.1,
+  "stateGroup": [
+   "obj_pan_level",
+   "obj_pan_tipped"
+  ]
+ },
+ "obj_pillar_ringing": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 330,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.95,
+  "kind": "object",
+  "bodyHeightTiles": 1.95,
+  "stateGroup": [
+   "obj_pillar_ringing",
+   "obj_pillar_held",
+   "obj_pillar_still"
+  ]
+ },
+ "obj_pillar_held": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 330,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.95,
+  "kind": "object",
+  "bodyHeightTiles": 1.95,
+  "stateGroup": [
+   "obj_pillar_ringing",
+   "obj_pillar_held",
+   "obj_pillar_still"
+  ]
+ },
+ "obj_pillar_still": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 330,
+  "h": 384,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 1.95,
+  "kind": "object",
+  "bodyHeightTiles": 1.95,
+  "stateGroup": [
+   "obj_pillar_ringing",
+   "obj_pillar_held",
+   "obj_pillar_still"
+  ]
+ },
+ "obj_rubble": {
+  "poses": [
+   "idle"
+  ],
+  "facing": "left",
+  "w": 384,
+  "h": 173,
+  "anchor": "bottom-center",
+  "suggestedHeightTiles": 0.7,
+  "kind": "object"
+ },
+ "obj_scale_beam": {
+  "poses": [
+   "idle"
+  ],
+  "w": 576,
+  "h": 192,
+  "anchor": "top-left",
+  "kind": "decal",
+  "wTiles": 3,
+  "hTiles": 1
+ }
+}
